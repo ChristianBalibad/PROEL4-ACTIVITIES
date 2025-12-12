@@ -59,7 +59,7 @@
             text-decoration: none;
             font-size: 30px;
             letter-spacing: 2px;
-            padding-right: 30px;
+            padding-right: 20px;
         }
 
         nav a:hover {
@@ -285,7 +285,7 @@
             <a href="#events">EVENTS</a>
             <a href="#news">NEWS</a>
             <a href="#about">ABOUT</a>
-            <a href="#" id="loginLink">LOGIN</a>
+            <a href="#" id="signupLink">SIGN UP</a>
         </nav>
     </header>
 
@@ -303,7 +303,7 @@
         </div>
     </section>
 
-    <div class="signup-modal active" id="signupModal">
+    <div class="signup-modal" id="signupModal">
         <div class="signup-form-container">
             <h2 class="signup-form-title">SIGN UP</h2>
             <form id="signupForm">
@@ -328,6 +328,7 @@
     </div>
 
     <script>
+        const signupLink = document.getElementById('signupLink');
         const signupForm = document.getElementById('signupForm');
         const cancelBtn = document.getElementById('cancelBtn');
         const signupModal = document.getElementById('signupModal');
@@ -341,6 +342,11 @@
             
             window.location.href = 'home.html';
         });
+
+        signupLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            signupModal.classList.add('active');
+        })
 
         cancelBtn.addEventListener('click', function() {
             signupModal.classList.remove('active');
