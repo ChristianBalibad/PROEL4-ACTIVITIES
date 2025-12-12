@@ -333,14 +333,31 @@
         const cancelBtn = document.getElementById('cancelBtn');
         const signupModal = document.getElementById('signupModal');
 
+        window.addEventListener('DOMContentLoaded', function() {
+            if (localStorage.getItem('signedUp') === 'true') {
+                signupLink.textContent = 'LOGIN';
+                signupLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('Login functionality not implemented');
+                });
+            } else {
+                signupLink.textContent = 'SIGN UP';
+                signupLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    signupModal.classList.add('active');
+                });
+            }
+        });
+
         signupForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
             alert('Registration successful! Please verify your email to complete the registration.');
             
+            localStorage.setItem('signedUp', 'true');
             signupModal.classList.remove('active');
             
-            window.location.href = 'home.html';
+            window.location.href = 'index.html';
         });
 
         signupLink.addEventListener('click', function(e) {
