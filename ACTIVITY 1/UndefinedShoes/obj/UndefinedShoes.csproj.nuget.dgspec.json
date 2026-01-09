@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACT-STUDENT\\source\\repos\\UndefinedShoes\\UndefinedShoes.csproj": {}
+    "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\UndefinedShoes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACT-STUDENT\\source\\repos\\UndefinedShoes\\UndefinedShoes.csproj": {
+    "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\UndefinedShoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACT-STUDENT\\source\\repos\\UndefinedShoes\\UndefinedShoes.csproj",
+        "projectUniqueName": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\UndefinedShoes.csproj",
         "projectName": "UndefinedShoes",
-        "projectPath": "C:\\Users\\ACT-STUDENT\\source\\repos\\UndefinedShoes\\UndefinedShoes.csproj",
+        "projectPath": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\UndefinedShoes.csproj",
         "packagesPath": "C:\\Users\\ACT-STUDENT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACT-STUDENT\\source\\repos\\UndefinedShoes\\obj\\",
+        "outputPath": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
