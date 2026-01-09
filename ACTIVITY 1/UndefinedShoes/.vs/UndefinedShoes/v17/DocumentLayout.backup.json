@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\documents\\proel4-activities\\activity 1\\undefinedshoes\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\documents\\proel4-activities\\activity 1\\undefinedshoes\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\documents\\proel4-activities\\activity 1\\undefinedshoes\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\documents\\proel4-activities\\activity 1\\undefinedshoes\\pages\\shoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -75,15 +75,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ACT-STUDENT\\Documents\\PROEL4-ACTIVITIES\\ACTIVITY 1\\UndefinedShoes\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T04:06:14.634Z"
+              "WhenOpened": "2026-01-09T04:06:14.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
