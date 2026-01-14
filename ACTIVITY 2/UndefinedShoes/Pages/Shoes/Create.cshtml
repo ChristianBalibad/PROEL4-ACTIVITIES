@@ -1,0 +1,69 @@
+﻿@page
+@model UndefinedShoes.Pages.Shoes.CreateModel
+
+@{
+    ViewData["Title"] = "Add New Shoe";
+}
+
+<div class="container-fluid bg-light min-vh-100 p-0">
+
+    <!-- Content -->
+    <div class="container py-5">
+        <div class="mb-4">
+            <h3 class="fw-semibold">Create Shoe</h3>
+            <p class="text-muted">Fill in the shoe details below</p>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Shoe.Brand" class="form-label"></label>
+                        <input asp-for="Shoe.Brand" class="form-control" />
+                        <span asp-validation-for="Shoe.Brand" class="text-danger small"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Model" class="form-label"></label>
+                            <input asp-for="Shoe.Model" class="form-control" />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Style" class="form-label"></label>
+                            <input asp-for="Shoe.Style" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Color" class="form-label"></label>
+                            <input asp-for="Shoe.Color" class="form-control" placeholder="Black, White" />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Size" class="form-label"></label>
+                            <input asp-for="Shoe.Size" class="form-control" placeholder="5, 6, 7, 8, 9" />
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="Shoe.Price" class="form-label"></label>
+                        <div class="input-group">
+                            <span class="input-group-text">₱</span>
+                            <input asp-for="Shoe.Price" class="form-control" />
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark btn-lg w-100">
+                        Add Shoe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

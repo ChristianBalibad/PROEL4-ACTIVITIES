@@ -1,0 +1,60 @@
+﻿@page
+@model UndefinedShoes.Pages.Shoes.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container-fluid bg-light min-vh-100 p-0">
+    <!--Card Contents-->
+    <div class="container py-5">
+        <div class="mb-4">
+            <h3 class="fw-semibold text-danger">Delete Shoe</h3>
+            <p class="text-muted">
+                Are you sure you want to permanently delete this shoe?
+            </p>
+        </div>
+
+        <div class="card shadow-sm border-0 border-start border-4 border-danger">
+            <div class="card-body p-4">
+                <dl class="row mb-4">
+                    <dt class="col-sm-4 text-muted">Brand</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Brand</dd>
+
+                    <dt class="col-sm-4 text-muted">Model</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Model</dd>
+
+                    <dt class="col-sm-4 text-muted">Style</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Style</dd>
+
+                    <dt class="col-sm-4 text-muted">Color</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Color</dd>
+
+                    <dt class="col-sm-4 text-muted">Size</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Size</dd>
+
+                    <dt class="col-sm-4 text-muted">Price</dt>
+                    <dd class="col-sm-8 fw-semibold">
+                        ₱@Model.Shoe.Price
+                    </dd>
+                </dl>
+
+                <form method="post">
+                    <input type="hidden" asp-for="Shoe.Id" />
+
+                    <div class="d-flex gap-2">
+                        <button type="submit"
+                                class="btn btn-danger btn-lg flex-fill">
+                            Delete Shoe
+                        </button>
+
+                        <a asp-page="Index"
+                           class="btn btn-outline-secondary btn-lg flex-fill">
+                            Cancel
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
