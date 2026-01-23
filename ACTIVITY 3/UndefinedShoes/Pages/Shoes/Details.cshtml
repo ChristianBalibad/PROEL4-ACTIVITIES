@@ -1,0 +1,58 @@
+@page "{id:int?}"
+@model UndefinedShoes.Pages.Shoes.DetailsModel
+
+@{
+    ViewData["Title"] = "Shoe Details";
+}
+
+<div class="container-fluid bg-light min-vh-100 p-0">
+
+    <!-- Content -->
+    <div class="container py-5">
+        <div class="mb-4">
+            <h3 class="fw-semibold">Shoe Information</h3>
+            <p class="text-muted">View product details below</p>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 text-muted">Brand</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Brand</dd>
+
+                    <dt class="col-sm-4 text-muted">Model</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Model</dd>
+
+                    <dt class="col-sm-4 text-muted">Style</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Style</dd>
+
+                    <dt class="col-sm-4 text-muted">Color</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Color</dd>
+
+                    <dt class="col-sm-4 text-muted">Size</dt>
+                    <dd class="col-sm-8 fw-semibold">@Model.Shoe.Size</dd>
+
+                    <dt class="col-sm-4 text-muted">Price</dt>
+                    <dd class="col-sm-8 fw-semibold">
+                        ₱@Model.Shoe.Price
+                    </dd>
+                </dl>
+
+                <hr class="my-4" />
+
+                <div class="d-flex gap-2">
+                    <a asp-page="./Edit"
+                       asp-route-id="@Model.Shoe.Id"
+                       class="btn btn-dark flex-fill">
+                        Edit Shoe
+                    </a>
+
+                    <a asp-page="./Index"
+                       class="btn btn-outline-secondary flex-fill">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

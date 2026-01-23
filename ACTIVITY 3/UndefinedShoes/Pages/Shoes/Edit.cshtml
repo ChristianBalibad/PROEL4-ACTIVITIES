@@ -1,0 +1,99 @@
+@page "{id:int}"
+@model UndefinedShoes.Pages.Shoes.EditModel
+
+@{
+    ViewData["Title"] = "Edit Shoe Details";
+}
+
+<div class="container-fluid bg-light min-vh-100 p-0">
+
+    <!-- Content -->
+    <div class="container py-5">
+        <div class="mb-4">
+            <h3 class="fw-semibold">Edit Shoe</h3>
+            <p class="text-muted">Update the shoe details below</p>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly"
+                         class="text-danger mb-3"></div>
+
+                    <input type="hidden" asp-for="Shoe.Id" />
+
+                    <!-- Brand -->
+                    <div class="mb-3">
+                        <label asp-for="Shoe.Brand" class="form-label"></label>
+                        <input asp-for="Shoe.Brand" class="form-control" />
+                        <span asp-validation-for="Shoe.Brand"
+                              class="text-danger small"></span>
+                    </div>
+
+                    <!-- Model & Style -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Model" class="form-label"></label>
+                            <input asp-for="Shoe.Model" class="form-control" />
+                            <span asp-validation-for="Shoe.Model"
+                                  class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Style" class="form-label"></label>
+                            <input asp-for="Shoe.Style" class="form-control" />
+                            <span asp-validation-for="Shoe.Style"
+                                  class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Color & Size -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Color" class="form-label"></label>
+                            <input asp-for="Shoe.Color" class="form-control"
+                                   placeholder="Black, White" />
+                            <span asp-validation-for="Shoe.Color"
+                                  class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Shoe.Size" class="form-label"></label>
+                            <input asp-for="Shoe.Size" class="form-control"
+                                   placeholder="5, 6, 7, 8, 9" />
+                            <span asp-validation-for="Shoe.Size"
+                                  class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="mb-4">
+                        <label asp-for="Shoe.Price" class="form-label"></label>
+                        <div class="input-group">
+                            <span class="input-group-text">₱</span>
+                            <input asp-for="Shoe.Price" class="form-control" />
+                        </div>
+                        <span asp-validation-for="Shoe.Price"
+                              class="text-danger small"></span>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="d-flex gap-2">
+                        <button type="submit"
+                                class="btn btn-dark btn-lg flex-fill">
+                            Save Changes
+                        </button>
+                        <a asp-page="Index"
+                           class="btn btn-outline-secondary btn-lg flex-fill">
+                            Cancel
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
