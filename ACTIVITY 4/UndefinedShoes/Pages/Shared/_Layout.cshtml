@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Undefined Shoes</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UndefinedShoes.styles.css" asp-append-version="true" />
+</head>
+
+<body class="@(ViewData["BodyClass"] as string ?? string.Empty)">
+    <header class="sticky-top bg-white border-bottom shadow-sm us-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="d-flex w-100 align-items-center justify-content-between gap-3">
+                    <a class="navbar-brand d-flex align-items-center us-navbar-brand" asp-page="/Index">
+                        <img src="~/img/undefinedfulllogo.png" alt="Undefined Shoes" height="34" />
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        <div class="d-lg-flex ms-lg-auto align-items-lg-center gap-lg-3 w-100 justify-content-lg-end">
+                            <ul class="navbar-nav align-items-lg-center gap-lg-4">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Shoes/Index">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Shoes/Index">Up to 60% OFF*</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Shoes/Index">New Arrivals</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button"
+                                       data-bs-toggle="dropdown" aria-expanded="false">
+                                        Categories
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                                        <li><a class="dropdown-item" asp-page="/Shoes/Index">Sneakers</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Shoes/Index">Running</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Shoes/Index">Training</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Shoes/Index">Basketball</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Shoes/Index">Lifestyle</a></li>
+                                        <li><a class="dropdown-item" asp-page="/Shoes/Index">Slides &amp; Sandals</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Privacy">About Us</a>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav align-items-lg-center gap-lg-2">
+                            <li class="nav-item">
+                                <a class="nav-link us-icon-link" asp-page="/Shoes/Index" aria-label="Cart">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" />
+                                        <path
+                                            d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" />
+                                        <path
+                                            d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link us-icon-link dropdown-toggle" href="#" id="accountDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Account">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" />
+                                        <circle cx="12" cy="7" r="4" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                                    <li><a class="dropdown-item" href="#">Sign In</a></li>
+                                    <li><a class="dropdown-item" href="#">Create Account</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid px-0">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container-fluid px-4 px-lg-5">
+            &copy; 2026 - Balibad, Christian P. - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
