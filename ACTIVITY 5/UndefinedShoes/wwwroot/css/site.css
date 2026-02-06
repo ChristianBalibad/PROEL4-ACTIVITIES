@@ -1,0 +1,116 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #ffffff;
+}
+
+header.sticky-top {
+  overflow: visible;
+}
+
+.us-home {
+  background-image: url('/img/shoe-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer
+{
+    background-color: white;
+}
+
+.us-navbar .navbar-brand img {
+  display: block;
+  height: 34px;
+  width: auto;
+}
+
+.us-navbar .nav-link {
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.us-navbar .nav-link:hover,
+.us-navbar .nav-link:focus {
+  color: #111827;
+}
+
+.us-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+}
+
+.us-icon-link:hover,
+.us-icon-link:focus {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.us-navbar .navbar-collapse {
+  overflow: visible;
+}
+
+.us-navbar .dropdown {
+  position: relative;
+}
+
+.us-navbar .dropdown-menu {
+  position: absolute;
+  left: 0;
+  right: auto;
+  min-width: 11rem;
+  max-width: 20rem;
+  z-index: 1050;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.us-navbar .dropdown-menu.dropdown-menu-end {
+  left: auto;
+  right: 0;
+}
+
+.us-navbar .dropdown-item {
+  font-weight: 500;
+  color: #374151;
+}
+
+.us-navbar .dropdown-item:hover,
+.us-navbar .dropdown-item:focus {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #111827;
+}
+
+@media (min-width: 992px) {
+  .us-navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .us-navbar .dropdown-toggle::after {
+    margin-left: 0.4rem;
+  }
+}

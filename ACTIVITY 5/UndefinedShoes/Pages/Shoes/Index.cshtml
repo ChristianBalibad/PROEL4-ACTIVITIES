@@ -1,0 +1,116 @@
+@page
+@model UndefinedShoes.Pages.Shoes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container-fluid bg-light min-vh-100 p-0">
+    <!-- Header -->
+    <div class="bg-white border-bottom">
+        <div class="container py-4 d-flex justify-content-between align-items-center">
+            <div>
+                <h1 class="fw-bold mb-0">Admin Dashboard</h1>
+                <small class="text-muted">Manage Shoes</small>
+            </div>
+            <a asp-page="Create" class="btn btn-dark px-4">
+                + Add New Shoe
+            </a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container py-5">
+        <div class="mb-4">
+            <h3 class="fw-semibold">Shoes</h3>
+            <p class="text-muted">View, edit, and manage your products</p>
+        </div>
+
+        <form method="get" class="mb-3">
+            <div class="row g-2 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white">Search</span>
+                        <input name="search"
+                               value="@Model.Search"
+                               class="form-control"
+                               placeholder="Brand, model, style, color, or size"
+                               autocomplete="off" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-auto d-flex gap-2">
+                    <button type="submit" class="btn btn-dark">
+                        Find
+                    </button>
+                    <a asp-page="./Index" class="btn btn-outline-secondary">
+                        Clear
+                    </a>
+                </div>
+            </div>
+        </form>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Brand</th>
+                                <th>Model</th>
+                                <th>Style</th>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th>Stock</th>
+                                <th>Price</th>
+                                <th class="text-end">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Shoe)
+                            {
+                                <tr>
+                                    <td class="fw-semibold">@item.Brand</td>
+                                    <td>@item.Model</td>
+                                    <td>@item.Style</td>
+                                    <td>@item.Color</td>
+                                    <td>@item.Size</td>
+                                    <td>@item.Stock</td>
+                                    <td>₱@item.Price</td>
+                                    <td class="text-end">
+                                        <div class="btn-group btn-group-sm">
+                                            <a asp-page="./Details"
+                                               asp-route-id="@item.Id"
+                                               class="btn btn-outline-secondary">
+                                                View
+                                            </a>
+                                            <a asp-page="./Edit"
+                                               asp-route-id="@item.Id"
+                                               class="btn btn-outline-dark">
+                                                Edit
+                                            </a>
+                                            <a asp-page="./Delete"
+                                               asp-route-id="@item.Id"
+                                               class="btn btn-outline-danger">
+                                                Delete
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+
+                            @if (!Model.Shoe.Any())
+                            {
+                                <tr>
+                                    <td colspan="8" class="text-center py-4 text-muted">
+                                        No shoes found.
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
