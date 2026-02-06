@@ -1,0 +1,43 @@
+@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+<main class="min-vh-100 bg-white py-5">
+    <div class="container px-4" style="max-width: 500px;">
+        <div class="mb-4">
+            <a asp-page="/Index" class="d-inline-flex align-items-center gap-2 text-decoration-none text-secondary mb-4">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 19L5 12L12 5" />
+                </svg>
+                Back to Home
+            </a>
+            <h1 class="h3 fw-bold text-dark mb-2">Check your email</h1>
+            <p class="text-secondary mb-0">We sent a confirmation link to your email</p>
+        </div>
+
+        <div class="card border rounded-3 shadow-sm mb-4">
+            <div class="card-body p-4">
+                <p class="small text-secondary mb-4">
+                    We've sent a confirmation link to <strong class="text-dark">@Model.Email</strong>. Click the link in that email to confirm your account.
+                </p>
+
+                @if (Model.DisplayConfirmAccountLink)
+                {
+                    <p class="small text-secondary mb-3">
+                        If you don't see the email, check your spam folder or use the link below to confirm.
+                    </p>
+                    <a id="confirm-link" href="@Model.EmailConfirmationUrl" class="btn btn-dark btn-lg w-100 rounded-3 py-3 fw-semibold mb-4">Confirm account</a>
+                }
+
+                <div class="text-center small text-secondary">
+                    Already confirmed?
+                    <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="fw-semibold text-dark text-decoration-none">Sign in</a>
+                </div>
+            </div>
+        </div>
+
+        <p class="small text-secondary text-center mb-0">By continuing, you agree to our Terms of Service and Privacy Policy</p>
+    </div>
+</main>

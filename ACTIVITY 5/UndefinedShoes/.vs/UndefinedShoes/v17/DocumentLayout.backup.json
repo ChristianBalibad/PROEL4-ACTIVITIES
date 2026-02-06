@@ -54,8 +54,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-06T11:26:49.178Z",
               "EditorCaption": ""
@@ -72,15 +76,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UndefinedShoes",
+              "Title": "UndefinedShoes.csproj",
               "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\UndefinedShoes.csproj",
               "RelativeDocumentMoniker": "UndefinedShoes.csproj",
               "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\UndefinedShoes.csproj",
               "RelativeToolTip": "UndefinedShoes.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-06T11:08:16.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:08:16.809Z"
             },
             {
               "$type": "Document",
@@ -164,8 +167,7 @@
               "RelativeToolTip": "Models\\Shoe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T03:59:32.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T03:59:32.061Z"
             },
             {
               "$type": "Document",
@@ -189,8 +191,7 @@
               "RelativeToolTip": "Data\\UndefinedShoesContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:03:54.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:03:54.312Z"
             }
           ]
         }
