@@ -23,8 +23,15 @@
                     <div asp-validation-summary="ModelOnly" class="alert alert-danger small" role="alert"></div>
 
                     <div class="mb-3">
+                        <label asp-for="Input.Username" class="form-label small fw-semibold text-dark">Username <span class="text-danger">*</span></label>
+                        <input asp-for="Input.Username" class="form-control form-control-lg border rounded-3" autocomplete="username" placeholder="Choose a username" />
+                        <span asp-validation-for="Input.Username" class="text-danger small"></span>
+
+                    </div>
+
+                    <div class="mb-3">
                         <label asp-for="Input.Email" class="form-label small fw-semibold text-dark">Email <span class="text-danger">*</span></label>
-                        <input asp-for="Input.Email" class="form-control form-control-lg border rounded-3" autocomplete="username" placeholder="your.email@example.com" />
+                        <input asp-for="Input.Email" class="form-control form-control-lg border rounded-3" autocomplete="email" placeholder="your.email@example.com" />
                         <span asp-validation-for="Input.Email" class="text-danger small"></span>
                     </div>
 

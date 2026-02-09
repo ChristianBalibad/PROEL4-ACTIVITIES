@@ -1,49 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\",
+  "WorkspaceRootPath": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Migrations\\20260209053129_Username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260209053129_Username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\data\\undefinedshoescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\data\\undefinedshoescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:data\\undefinedshoescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\undefinedshoes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\undefinedshoes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:undefinedshoes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\shoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\shoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\shoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\shoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\pages\\shoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:pages\\shoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\thianiiii\\downloads\\proel4-activities\\activity 5\\undefinedshoes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|c:\\users\\act-student\\desktop\\proel4-activities\\activity 5\\undefinedshoes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{848B0007-653C-4EC1-A991-716841D3B074}|UndefinedShoes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -63,10 +67,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20260209053129_Username.cs",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Migrations\\20260209053129_Username.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260209053129_Username.cs",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Migrations\\20260209053129_Username.cs",
+              "RelativeToolTip": "Migrations\\20260209053129_Username.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T05:31:29.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -75,11 +92,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UndefinedShoes.csproj",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\UndefinedShoes.csproj",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\UndefinedShoes.csproj",
               "RelativeDocumentMoniker": "UndefinedShoes.csproj",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\UndefinedShoes.csproj",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\UndefinedShoes.csproj",
               "RelativeToolTip": "UndefinedShoes.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -87,11 +104,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shoes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Index.cshtml",
               "RelativeToolTip": "Pages\\Shoes\\Index.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -99,11 +116,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shoes\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Details.cshtml",
               "RelativeToolTip": "Pages\\Shoes\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -111,11 +128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shoes\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Delete.cshtml",
               "RelativeToolTip": "Pages\\Shoes\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -123,11 +140,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shoes\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Edit.cshtml",
               "RelativeToolTip": "Pages\\Shoes\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -135,11 +152,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shoes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Pages\\Shoes\\Create.cshtml",
               "RelativeToolTip": "Pages\\Shoes\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -147,11 +164,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Program.cs",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,11 +176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Shoe.cs",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Models\\Shoe.cs",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Models\\Shoe.cs",
               "RelativeDocumentMoniker": "Models\\Shoe.cs",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Models\\Shoe.cs",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Models\\Shoe.cs",
               "RelativeToolTip": "Models\\Shoe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,11 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -185,13 +202,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UndefinedShoesContext.cs",
-              "DocumentMoniker": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Data\\UndefinedShoesContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Data\\UndefinedShoesContext.cs",
               "RelativeDocumentMoniker": "Data\\UndefinedShoesContext.cs",
-              "ToolTip": "C:\\Users\\Thianiiii\\Downloads\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Data\\UndefinedShoesContext.cs",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\Desktop\\PROEL4-ACTIVITIES\\ACTIVITY 5\\UndefinedShoes\\Data\\UndefinedShoesContext.cs",
               "RelativeToolTip": "Data\\UndefinedShoesContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:03:54.312Z"
+              "WhenOpened": "2026-01-09T04:03:54.312Z",
+              "EditorCaption": ""
             }
           ]
         }
